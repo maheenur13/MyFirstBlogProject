@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>icoder</title>
 </head>
@@ -65,36 +65,39 @@
             <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
         </ol>
         <div class="carousel-inner h-20">
-            <div class="carousel-item active">
-                <img src="img/bg-img-2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-item active ">
+                <img src="img/bg-img-2.jpg" class="img-fluid d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block d-lg-block">
                     <div class="for-text">
                         <h5>Welcome To Icoder</h5>
                         <p>Technology News, Development and Trends.</p>
-                        <button class="btn btn-primary">Technology</button>
-                        <button class="btn btn-danger">Development</button>
-                        <button class="btn btn-warning">Trends</button>
+                        <div class="container">
+                            <button class="btn btn-primary">Technology</button>
+                            <button class="btn btn-danger">Development</button>
+                            <button class="btn btn-warning">Trends</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/bg-img-3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <img src="img/bg-img-3.jpg" class="img-fluid d-block w-100" alt="...">
+                <div class="carousel-caption  d-none d-lg-block d-md-block">
                     <h5>icoder the best coding blog</h5>
                     <p>Technology News, Development and Trends.</p>
                     <button class="btn btn-success">Technology</button>
-                        <button class="btn btn-danger">Development</button>
-                        <button class="btn btn-warning">Trends</button>
+                    <button class="btn btn-danger">Development</button>
+                    <button class="btn btn-warning">Trends</button>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/bg-img-1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <img src="img/bg-img-1.jpg" class="img-fluid d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-lg-block
+                 d-md-block">
                     <h5>Award Winning blog</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     <button class="btn btn-primary">Technology</button>
-                        <button class="btn btn-danger">Development</button>
-                        <button class="btn btn-warning">Trends</button>
+                    <button class="btn btn-danger">Development</button>
+                    <button class="btn btn-warning">Trends</button>
                 </div>
             </div>
         </div>
@@ -108,72 +111,80 @@
         </a>
     </div>
     <div class="container my-4">
-    <div class="row mb-2">
-        <div class="col-md-6 col-sm-6">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-danger">World-Wide</strong>
-              <h3 class="mb-0">Global Conferences</h3>
-              <div class="mb-1 text-muted">Nov 12</div>
-              <p class="card-text mb-auto">This is a wider card with supporting t ext below as a natural lead-in to additional content.</p>
-              <a href="#" class="stretched-link">Continue reading</a>
+        <div class="row mb-2">
+            <div class="col-md-6 col-sm-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative justify-content-center align-items-center">
+                    <div class="order-md-2  col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-danger">World-Wide</strong>
+                        <h3 class="mb-0">Global Conferences</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting t ext below as a natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="mt-2 col-auto d-none order-md-1 d-md-block d-lg-block">
+                        <img class=" bd-placeholder-img" width="250px" height="230px" src="img/blog-1.jpg" alt="">
+
+                    </div>
+                </div>
             </div>
-            <div class="col-auto d-none d-lg-block">
-             <img class="bd-placeholder-img" width="250" height="230" src="img/blog-1.jpg" alt="">
-    
+
+            <div class="col-md-6 col-sm-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative justify-content-center align-items-center">
+                    <div class="order-md-2 col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Design</strong>
+                        <h3 class="mb-0">Learn-Designing</h3>
+                        <div class="mb-1 text-muted">Nov 11</div>
+                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="order-md-1 col-auto d-md-block mt-2 d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="250" height="230" src="img/blog-2.jpg" alt="">
+
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        
-        <div class="col-md-6 col-sm-6">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-success">Design</strong>
-              <h3 class="mb-0">Learn-Designing</h3>
-              <div class="mb-1 text-muted">Nov 11</div>
-              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="stretched-link">Continue reading</a>
+        <div class="row mb-2">
+            <div class="col-md-6 col-sm-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative justify-content-center align-items-center">
+                    <div class="order-md-2 col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-danger">World-Wide</strong>
+                        <h3 class="mb-0">Global Conferences</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting t ext below as a natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="order-md-1 d-md-block mt-2 col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="250" height="230" src="img/blog-3.jpg" alt="">
+
+                    </div>
+                </div>
             </div>
-            <div class="col-auto d-none d-lg-block">
-                <img class="bd-placeholder-img" width="250" height="230" src="img/blog-2.jpg" alt="">
-    
+
+            <div class="col-md-6 col-sm-6">
+                <div
+                    class=" row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative justify-content-center align-items-center">
+                    <div class="order-md-2 col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Design</strong>
+                        <h3 class="mb-0">Learn-Designing</h3>
+                        <div class="mb-1 text-muted">Nov 11</div>
+                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="order-md-1 d-md-block mt-2 col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="250" height="230" src="img/blog-4.jpg" alt="">
+
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    <div class="row mb-2">
-        <div class="col-md-6 col-sm-6">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-danger">World-Wide</strong>
-              <h3 class="mb-0">Global Conferences</h3>
-              <div class="mb-1 text-muted">Nov 12</div>
-              <p class="card-text mb-auto">This is a wider card with supporting t ext below as a natural lead-in to additional content.</p>
-              <a href="#" class="stretched-link">Continue reading</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-             <img class="bd-placeholder-img" width="250" height="230" src="img/blog-3.jpg" alt="">
-    
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-md-6 col-sm-6">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-success">Design</strong>
-              <h3 class="mb-0">Learn-Designing</h3>
-              <div class="mb-1 text-muted">Nov 11</div>
-              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="stretched-link">Continue reading</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-                <img class="bd-placeholder-img" width="250" height="230" src="img/blog-4.jpg" alt="">
-    
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
